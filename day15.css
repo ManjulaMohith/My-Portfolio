@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+}
+body{
+    /* background-image: url("https://i.stack.imgur.com/HLiKD.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%; */
+    background-color:  antiquewhite;
+}
+header{
+    padding:25px 25px 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    position: fixed;
+    width: 100%;
+}
+header a{
+    padding: 10px;
+    color: rgb(6, 6, 94);
+    font-weight: 600;
+    font-size: 18px;
+}
+header a:hover{
+    color: red;
+    text-decoration: underline;
+   
+}
+header i{
+    padding: 5px;
+}
+header i:hover{
+    color: red;
+}
+section{
+    padding-top: 100px;
+    background-color: rgb(210, 11, 11);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+    height: 380px;
+    margin: 0px 30px 0px 30px;
+}
+section h1{
+    color: rgb(169, 243, 220);
+    margin: 6px;
+    font-size:30px;
+}
+section p{
+    margin: 10px;
+    color: rgb(209, 195, 195);
+}
+.image1{
+    border-radius: 10px;
+}
+button{
+    padding: 8px;
+    background-color:rgb(234, 237, 241);
+    border: none;
+    border-radius: 7px;
+}
+button:hover{
+    background-color:transparent;
+    color: white;
+    border: 2px solid black;
+    font-weight: 600;
+}
+article i{
+    color: orangered;
+} 
+article h3{
+    margin: 7px;
+}
+footer{
+    background-color: rgb(241, 132, 69);
+    margin: 30px;
+    columns: 200px 4;
+    column-gap: 20px;
+    padding: 50px;
+}
+.card{
+    width: 220px;
+    border: 1px solid ;
+    border-radius: 11px;
+    padding: 20px;
+    background-color: rgb(250, 248, 244);
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 10px rgba(1, 1, 0, 0.3);
+    cursor: pointer;
+    
+}
+.card:hover{
+    background-color: yellowgreen;
+    border: 3px solid rgb(24, 88, 14);
+}
+footer i{
+    color: rgb(215, 124, 21);
+    font-size: 13px;
+}
+footer h3,button{
+    margin: 5px;
+    text-align: center;
+}
+footer button{
+    border: 1px solid;
+    margin-left: 60px;
+}
+
+#review{
+    margin: 30px;
+    padding: 20px;
+    columns: 3 200px;
+}
+.reviewcard{
+    width: 300px;
+    padding: 15px;
+    background-color: rgb(222, 217, 163);
+    margin-bottom: 9px;
+    text-align: center;
+}
+.reviewcard:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid yellow;
+}
+.reviewimg{
+    border-radius: 50%;
+}
+.icons i{
+    padding: 5px;
+}

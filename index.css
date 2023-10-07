@@ -1,0 +1,259 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #081b29;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+span{
+    color: #0ef;
+}
+.header{
+    padding: 20px;
+    background-color: rgb(5, 5, 110);
+    position: fixed;
+    width: 100vw;
+    z-index: 5;
+}
+div nav{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+nav a:hover{
+    
+    padding: 4px 6px;
+    background-color:#081b29;
+    border-radius: 10px;
+    
+}
+/* home section styling starts */
+#home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 200px;
+    
+}
+#home h1{
+    font-size: 2.3rem;
+}
+#home img{
+    border-radius: 50%;
+    box-shadow: 10px 10px 30px #0ef,-10px -10px 30px rgb(143, 8, 192);
+}
+
+#home img:hover{
+    transform: scale(1.2);
+    transition: transform 1s;
+    
+}
+
+.profile{
+    height: 250px;
+    width: 250px;
+    border: 4px solid white;
+    border-radius:50%;
+    padding: 33px;
+    border-top:4px solid  #0ef;
+    border-bottom: 5px solid #0ef;
+}
+.profile:hover{
+    border-left: 4px solid violet;
+    border-right: 4px solid violet;
+}
+.developeranim{
+    animation: dev 2s infinite linear;
+}
+@keyframes dev{
+    0%{
+        color: rgb(21, 192, 126);
+    }
+    25%{
+        color:white;
+    }
+    50%{
+        color: chartreuse;
+    }
+    100%{
+        color: rgb(219, 202, 15);
+    }
+}
+@keyframes box{
+    0%{
+        transform:translateX(-2px);
+       
+    }
+    50%{
+        transform:translateX(-150px);
+        
+    }
+    
+    100%{
+        transform: translate(10px);
+    }
+}
+#home button{
+padding: 7px 15px;
+background-color: #0ef;
+border-radius: 15px;
+border: 1px solid transparent;
+margin-top: 10px;
+}
+#home button:hover{
+box-shadow: 4px 3px 10px #0ef,-4px -3px 10px #0ef;
+}
+
+button a{
+color: #081b29;
+font-weight: bold;
+line-height: 20px;
+}
+.social-icons{
+margin: 15px 10px 15px 0px;
+}
+.social-icons a{
+height: 50px;
+width: 100px;
+border: 1px solid transparent;
+border-radius: 50%;
+padding: 5px 9px;
+margin: 3px;
+background-color: #0ef;
+color: black;
+font-size: 20px;
+
+}
+.social-icons a:hover{
+background-color: transparent;
+color: #0ef;
+transition:background-color 1s; 
+border: 1px solid #0ef;
+}
+
+#aboutme{
+padding-top: 170px;
+padding-bottom: 150px;
+
+}
+/* .about{
+    padding-left: 50px;
+} */
+.ed-box{
+    border: 1px solid white;
+    text-align: center;
+}
+.pro-skills{
+    padding-left:180px;
+}
+/* pro-skills ring styling */
+.ring1{
+    height: 90px;
+    width: 90px;
+    border: 7px solid white;
+    border-radius: 50%;
+    border-top: 7px solid #0ef;
+    border-right:7px solid #0ef ;
+    margin-right: 50px;
+}
+
+.ring1 p{
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.ring2{
+    height: 90px;
+    width: 90px;
+    border: 7px solid white;
+    border-radius: 50%;
+    border-top: 7px solid #0ef;
+    border-right:7px solid #0ef ;
+    margin-right: 50px;
+}
+.ring3{
+    height: 90px;
+    width: 90px;
+    border: 7px solid white;
+    border-radius: 50%;
+    border-top: 7px solid #0ef;
+    border-right:7px solid #0ef ;
+    border-bottom: 7px solid #0ef;
+    margin-right: 40px;
+}
+.ring2 p{
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.ring3 p{
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+/* my website section */
+
+/* .vedio1{
+    height: 300px;
+    width: 400px;
+    border: 1px solid rgb(57, 55, 55);
+    background-color: cadetblue;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+} */
+.mywebsite{
+    padding-top: 70px;
+}
+.frame1{
+    height: 270px;
+    width: 440px;
+    background-color:rgb(26, 174, 194);
+    text-align: center;
+    padding: 18px;
+    border-radius: 10px;
+    /* margin:20px 35px 20px 35px; */
+    margin-right: 130px;
+}
+input{
+    width: 450px;
+    margin: auto;
+    border: 1px solid #0ef;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: transparent;
+    color: rgb(234, 221, 221);
+    
+}
+.input3{
+    height: 100px;
+    text-align: start;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+::placeholder{
+    color: #0ef;
+ }
+ .button1{
+    width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+ }
+ .skillsmargin{
+    margin-top: 50px;
+ }
+ #contact{
+    margin-bottom: 40px;
+ }
+#mywebsites{
+    margin-top: 30px;
+}

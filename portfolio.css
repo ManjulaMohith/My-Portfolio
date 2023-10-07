@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+/* side bar starts */
+.wrapper .navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    
+
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    padding-left: 50px;
+    row-gap: 25px;
+    height: 100vh;
+    width: 250px;
+    background-color:rgb(18, 83, 106)
+    
+}
+.navbar a:hover{
+    color: black;
+}
+.navbar h1{
+    color: white;
+}
+.social-icon a{
+    font-size: 20px;
+    color: #f6ee14;
+}
+.nav-icons a{
+    color: #f9faf8;
+}
+.nav-icons b{
+    color:white;
+    
+}
+.nav-icons b:hover{
+    background-color: rgb(237, 16, 86);
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+div .photo{
+    border-radius: 50%;
+}
+div a{
+    margin-right: 10px;
+}
+
+/* side bar ends */
+/* home section starts */
+#home{
+    background-color: rgb(39, 37, 37);
+    margin-left: 270px;
+    height: 330px;
+    align-items: center;
+    padding:150px 50px 85px 190px;
+    
+    
+}
+span{
+    color: rgb(237, 16, 86);
+}
+#home h1,p,h2{
+    margin-bottom: 20px;
+    color: white;
+}
+button{
+    padding: 8px 20px;
+    background-color: rgb(237, 16, 86);
+    border-radius: 15px;
+    border: 1px solid transparent;
+    
+}
+button a{
+    color: white;
+    font-weight: bold;
+    line-height: 20px;
+}
+button:hover{
+    background-color: transparent;
+    border: 1px solid white;
+}
+/* home section ends */
+/* about me section starts */
+#aboutme{
+    background-color: rgb(17, 18, 17);
+    margin-left: 270px;
+    height: 335px;
+    padding:40px 50px 130px 100px;
+    color: white;
+}
+#aboutme h1{
+    margin-bottom: 20px;
+}
+#aboutme p{
+    margin-bottom: 40px;
+}
+p{
+    line-height: 23px;
+}
+#aboutme ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+    
+
+#aboutme p::first-letter{
+    font-size: 20px;
+    font-weight: bold;
+}
+/* about me and skills section ends */
+
+#education{
+    background-color: rgb(17, 18, 17);
+    margin-left: 270px;
+    height: 410px;
+    padding:50px 50px 70px 100px;
+    color: white;
+}
+#education table th,tr,td{
+    padding: 15px;
+    text-align: center;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+#education h1{
+    margin-bottom: 15px;
+}
+/* my websites section starts */
+#mywebsites{
+    
+    background-color: rgb(17, 18, 17);
+    margin-left: 270px;
+    height: 450px;
+    padding:30px 50px 130px 100px;
+    color: white;
+    
+}
+#mywebsites .card1{
+    background-color: black;
+    height: 150px;
+    width: 200px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;  
+    background-image: url("https://d334lak5lb2pjo.cloudfront.net/wp-content/uploads/b2b-web-design-examples-min.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#mywebsites .card1:hover{
+    background-color: darkolivegreen;
+    height: 170px;
+    width: 220px;
+    border-radius: 1px solid yellow;
+    border: 2px solid white;
+    border-top: 2px solid rgb(247, 13, 52);
+    box-shadow: 0 0 15px rgb(193, 193, 190);
+}
+
+#mywebsites button{
+    margin-top: 70px;
+    margin-left: 40px;
+}
+#mywebsites button:hover{
+    background-color: black;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#mywebsites h1{
+    margin-bottom: 25px;
+    text-align: center;
+}
